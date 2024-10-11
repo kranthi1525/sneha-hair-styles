@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>SNEHA HAIR STYLES - Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <style>
+         .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+       .container h1 {
+            /* font-size: 2.5rem; */
+            font-weight: 500;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .flx {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .child {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .details {
+            background-color: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .details:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 14px 24px rgba(62, 57, 107, 0.2);
+        }
+
+        .section-heading {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 15px;
+        }
+
+        
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            font-size: 1.5rem;
+            color: #000;
+        }
+
+        .map {
+            width: 100%;
+            height: 450px;
+            border: none;
+        }
+
+        @media (max-width: 768px) {
+            .flx {
+                flex-direction: column;
+            }
+
+            .map {
+                height: 300px;
+                width: 90%;
+            }
+            
+            .contact-layout {
+                flex-direction: column;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .section-heading {
+                font-size: 1.3rem;
+            }
+
+           
+        }
+    </style>
+
+</head>
+<body class="barber_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="cube-wrapper">
+		  <div class="cube-folding">
+			<span class="leaf1"></span>
+			<span class="leaf2"></span>
+			<span class="leaf3"></span>
+			<span class="leaf4"></span>
+		  </div>
+		  <span class="loading" data-name="Loading">SNEHA HAIR STYLES Loading</span>
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+
+    <div id="wrapper">
+
+        <!-- Sidebar-wrapper -->
+        <div id="sidebar-wrapper">
+			<div class="side-top">
+				<div class="logo-sidebar">
+					<a href="index.html"><img class="logoo" src="images/logos/logo.png" alt="image"></a>
+				</div>
+				<ul class="sidebar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="services.html">Our Services</a></li>
+					<li><a href="special_services.html">Special Services</a></li>
+					<li><a class="active" href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+        </div>
+        <!-- End Sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <a href="#menu-toggle" class="menuopener" id="menu-toggle"><i class="fa fa-bars"></i></a>
+			
+            <div class="all-page-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<div class="title title-1 text-center">
+								<div class="title--heading">
+									<h1>Contact</h1>
+								</div>
+								<div class="clearfix"></div>
+								<ol class="breadcrumb">
+									<li><a href="index-3.html">Home</a></li>
+									<li class="active">Contact</li>
+								</ol>
+								<div class="much">
+									<img src="uploads/mustache.png" alt=""/>
+								</div>
+							</div>
+							<!-- .title end -->
+						</div>
+					</div>
+				</div>
+			</div><!-- end all-page-bar -->
+
+            <!-- <section class="section nopad cac text-center">
+                <a href="#"><h3>Interesting our awesome barber services? Just drop an appointment form below!</h3></a>
+            </section> -->
+
+            <div id="contact" class="section wb">
+                <div class="container">
+                    <h1>Contact Us</h1>
+                    <div class="flx">
+                        <div class="child details">
+                            <h3 class="section-heading" style="font-size: larger;">Sneha Hair Styles</h3>
+                            <p>4th Floor, Sailok Complex, 6/1, Arundelpet, Guntur, Andhra Pradesh 522002</p>
+                            
+                            <p style="font-size: large;color: black;">+91 9966574929</p>
+                            <p><a href="mailto:dilleshippili@gmail.com" style="font-size: large;color: black;">dilleshippili@gmail.com</a></p>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/krupacorp/"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://x.com/krupacorpindia"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/company/krupacorporationcom"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.youtube.com/@krupaCorp"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                        </div>
+                        <div class="child">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856266.3997730757!2d74.18206714315848!3d19.287359823551913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75f3614c614d%3A0xb52826af858e8ce0!2sKrupa%20Corporation%20HQ!5e0!3m2!1sen!2sin!4v1726579746006!5m2!1sen!2sin" class="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- end section -->
+
+            <div id="map" class="map-box">
+                <div class="container-fluid">
+                    
+                </div><!-- end container -->
+            </div><!-- end section -->
+
+            <div class="copyrights">
+                <div class="container-fluid">
+                    <div class="footer-distributed">
+                        <div class="footer-left">
+                            <p class="footer-links">
+                                <a href="index.html">Home</a>
+                                <a href="about.html">About</a>
+                                <a href="services.html">Services</a>
+                                <a href="special_services.html">Special Services</a>
+                                <a href="contact.html">Contact</a>
+                            </p>
+                            <p class="footer-company-name">All Rights Reserved. &copy; 2024 <a href="#">Sneha Hair Styles</a> Design By : <a href="https://www.linkedin.com/in/kranthikirankelam/">Kranthi Kiran</a></p>
+                        </div>
+
+                        <div class="footer-right">
+                            <img src="images/logos/logo.png" alt="" width="100px">
+                            
+                        </div>
+                    </div>
+                </div><!-- end container -->
+            </div><!-- end copyrights -->
+        </div>
+    </div><!-- end wrapper -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<script src="js/responsive-tabs.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    (function($) {
+        "use strict";
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+        });
+        smoothScroll.init({
+            selector: '[data-scroll]', // Selector for links (must be a class, ID, data attribute, or element tag)
+            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
+            speed: 500, // Integer. How fast to complete the scroll in milliseconds
+            easing: 'easeInOutCubic', // Easing pattern to use
+            offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+            callback: function ( anchor, toggle ) {} // Function to run after scrolling
+        });
+    })(jQuery);
+    </script>
+
+</body>
+</html>
